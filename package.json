@@ -14,9 +14,9 @@
     }
   },
   "dependencies": {
-    "cordova-windows": "~6.0.1",
-    "cordova-plugin-whitelist": "~1.2.0",
     "cordova-plugin-console": "~1.0.1",
-    "cordova-plugin-statusbar": "~1.0.1"
+    "cordova-plugin-statusbar": "~1.0.1",
+    "cordova-plugin-whitelist": "~1.2.0",
+    "cordova-windows": "^6.0.1"
   }
 }
