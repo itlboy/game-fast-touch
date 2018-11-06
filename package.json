@@ -1,0 +1,22 @@
+{
+  "name": "com.phonegap.helloworld",
+  "version": "1.0.0",
+  "displayName": "Touch touch touch",
+  "cordova": {
+    "platforms": [
+      "windows",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-whitelist": {},
+      "cordova-plugin-console": {},
+      "cordova-plugin-statusbar": {}
+    }
+  },
+  "dependencies": {
+    "cordova-windows": "~6.0.1",
+    "cordova-plugin-whitelist": "~1.2.0",
+    "cordova-plugin-console": "~1.0.1",
+    "cordova-plugin-statusbar": "~1.0.1"
+  }
+}
