@@ -26,7 +26,7 @@
   "cordova-plugin-fullscreen": {
     "source": {
       "type": "registry",
-      "id": "cordova-plugin-fullscreen@^1.2.0"
+      "id": "cordova-plugin-fullscreen"
     },
     "is_top_level": true,
     "variables": {}
