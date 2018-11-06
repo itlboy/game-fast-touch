@@ -29,6 +29,14 @@ module.exports = [
     "file": "plugins/cordova-plugin-statusbar/src/windows/StatusBarProxy.js",
     "pluginId": "cordova-plugin-statusbar",
     "runs": true
+  },
+  {
+    "id": "cordova-plugin-fullscreen.AndroidFullScreen",
+    "file": "plugins/cordova-plugin-fullscreen/www/AndroidFullScreen.js",
+    "pluginId": "cordova-plugin-fullscreen",
+    "clobbers": [
+      "AndroidFullScreen"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -36,7 +44,8 @@ module.exports.metadata =
 {
   "cordova-plugin-console": "1.0.7",
   "cordova-plugin-statusbar": "1.0.1",
-  "cordova-plugin-whitelist": "1.2.2"
+  "cordova-plugin-whitelist": "1.2.2",
+  "cordova-plugin-fullscreen": "1.1.0"
 };
 // BOTTOM OF METADATA
 });

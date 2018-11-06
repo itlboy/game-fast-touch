@@ -5,18 +5,23 @@
   "cordova": {
     "platforms": [
       "windows",
-      "ios"
+      "ios",
+      "browser"
     ],
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-console": {},
-      "cordova-plugin-statusbar": {}
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-fullscreen": {}
     }
   },
   "dependencies": {
+    "cordova-browser": "^5.0.4",
     "cordova-plugin-console": "~1.0.1",
+    "cordova-plugin-fullscreen": "^1.2.0",
     "cordova-plugin-statusbar": "~1.0.1",
     "cordova-plugin-whitelist": "~1.2.0",
-    "cordova-windows": "^6.0.1"
+    "cordova-windows": "^6.0.1",
+    "cordova-ios": "~4.5.5"
   }
 }

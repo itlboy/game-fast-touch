@@ -15,6 +15,9 @@
     },
     "cordova-plugin-whitelist": {
       "PACKAGE_NAME": "Touch touch touch"
+    },
+    "cordova-plugin-fullscreen": {
+      "PACKAGE_NAME": "Touch touch touch"
     }
   },
   "dependent_plugins": {}
